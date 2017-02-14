@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cmdev\\mturk-php\\": "src/"
+            "Cmdev\\Mturk-php\\": "src/"
         }
     },
     "minimum-stability": "dev"
