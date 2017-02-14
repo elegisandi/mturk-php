@@ -18,13 +18,11 @@ class MechanicalTurk {
 
     public $config;
     
-    public function __construct(){
-        $config = json_decode(@file_get_contents('mturkconfig.json'));
-
+    public function __construct($config = array()){
         if (!$config) {
-            throw new Exception('No valid config file found and config not passed to constructor');
+            throw new Exception('Invalid configuration value');
         } else {
-            $this->config = $config;
+            $this->config = (object)$config;
         }
     }
 
