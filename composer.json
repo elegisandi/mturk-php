@@ -1,0 +1,24 @@
+
+{
+    "name": "crowdmetricdevs/mturk-php",
+    "description": "Provides a simple library to communicate with the Amazon Mechanical Turk API. This is a fork of ctrlcctrlv/mturk-php",
+    "keywords": ["amazon mechanical turk", "mturk", "mturk-php", "api"],
+    "homepage": "https://github.com/crowdmetricdevs",  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Developers Crowdmetric",
+            "email": "developers.crowdmetric@gmail.com"
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+    },
+    "autoload": {
+        "psr-4": {
+            "crowdmetricdevs\\mturk-php\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
