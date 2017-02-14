@@ -1,6 +1,6 @@
 
 {
-    "name": "crowdmetricdevs/mturk-php",
+    "name": "cmdev/mturk-php",
     "description": "Provides a simple library to communicate with the Amazon Mechanical Turk API. This is a fork of ctrlcctrlv/mturk-php",
     "keywords": ["amazon mechanical turk", "mturk", "mturk-php", "api"],
     "homepage": "https://github.com/crowdmetricdevs",  
